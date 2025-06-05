@@ -15,7 +15,7 @@ This repository serves as your **complete learning roadmap** for mastering AI ag
 ## 🗺️ Learning Journey Overview
 
 ```
-🌱 AI Fundamentals → 🧠 Agent Concepts → 🔧 LangChain Basics → 📊 LangGraph Mastery → 🚀 Advanced Applications
+🌱 Fundamentals → 🎯 Prompting → 🧠 Agents → 🔧 LangChain → 📊 LangGraph → 🚀 Production
 ```
 
 ---
@@ -46,11 +46,124 @@ Build a solid foundation in AI, LLMs, and prompt engineering
 
 ### 🛠️ **Hands-on Practice**
 
-- [OpenAI Playground](https://platform.openai.com/playground) - Experiment with
+- [OpenAI Playground](https://platform.openai.com/playground) - Experiment with different prompts
+- [Anthropic Claude](https://claude.ai/) - Compare different AI models
+- [Prompt Engineering Guide](https://www.promptingguide.ai/) - Comprehensive prompting techniques
+
+### ✅ **Checkpoint: You Should Know**
+
+- How LLMs work at a high level
+- Effective prompt engineering techniques
+- Different types of AI models and their capabilities
+- API basics for AI integration
+
+### 🏗️ **Practice Project**
+
+**Build a Smart Q&A System**
+
+- Create prompts for different question types (factual, analytical, creative)
+- Test with multiple AI models to compare responses
+- Document prompt variations and their effectiveness
+- Goal: Master basic prompt construction and model interaction
 
 ---
 
-## 🧠 Phase 2: AI Agent Concepts
+## 🎯 Phase 2: Advanced Prompt Engineering
+
+### 🎯 **Learning Objectives**
+
+Master advanced prompting techniques essential for building effective AI agents
+
+### 🎥 **Video Courses**
+
+- **[DeepLearning.AI - Advanced Prompt Engineering](https://learn.deeplearning.ai/)**
+  - Advanced prompting strategies
+  - Chain-of-thought reasoning
+- **[Coursera - Prompt Engineering Courses](https://www.coursera.org/search?query=prompt%20engineering)**
+  - Various courses on advanced prompting
+  - Specialized techniques for different domains
+
+### 📖 **Essential Resources**
+
+- **[Prompt Engineering Guide](https://www.promptingguide.ai/)**
+  - Comprehensive guide to all prompting techniques
+  - Examples and best practices
+- **[OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering)**
+  - Official OpenAI prompting strategies
+  - Model-specific techniques
+- **[Anthropic Prompt Engineering](https://docs.anthropic.com/claude/docs/prompt-engineering)**
+  - Claude-specific prompting techniques
+  - Advanced reasoning patterns
+
+### 🔥 **Key Prompting Techniques**
+
+- **Chain-of-Thought (CoT) Prompting**
+  - [Chain-of-Thought Prompting Elicits Reasoning](https://arxiv.org/abs/2201.11903)
+  - Step-by-step reasoning techniques
+- **Few-Shot Learning**
+  - Example-based learning patterns
+  - Context window optimization
+- **Role-Based Prompting**
+  - System prompts and persona design
+  - Context setting for agents
+- **ReAct Prompting**
+  - Reasoning and Acting patterns
+  - Foundation for agent architectures
+
+### 🛠️ **Advanced Prompt Patterns**
+
+- **[Prompt Patterns Catalog](https://github.com/prompt-engineering/prompt-patterns-catalog)**
+  - Comprehensive collection of prompt patterns
+  - Reusable prompting templates
+- **[LangChain Prompt Templates](https://python.langchain.com/docs/modules/model_io/prompts/)**
+  - Structured prompting with LangChain
+  - Dynamic prompt generation
+- **[Awesome Prompt Engineering](https://github.com/promptslab/Awesome-Prompt-Engineering)**
+  - Curated list of prompting resources
+  - Tools and frameworks
+
+### 📊 **Prompt Optimization**
+
+- **[Prompt Injection and Security](https://owasp.org/www-project-top-10-for-large-language-model-applications/)**
+  - Security considerations in prompting
+  - Defensive prompting techniques
+- **[Measuring Prompt Quality](https://arxiv.org/abs/2307.03381)**
+  - Evaluation metrics for prompts
+  - A/B testing for prompts
+
+### 🎮 **Interactive Learning**
+
+- **[PromptBase](https://promptbase.com/)**
+  - Marketplace for quality prompts
+  - Learn from expert-crafted prompts
+- **[AI Prompt Genius](https://www.aipromptgenius.com/)**
+  - Prompt templates and examples
+  - Industry-specific prompting
+- **[FlowGPT](https://flowgpt.com/)**
+  - Community-driven prompt sharing
+  - Collaborative prompt development
+
+### ✅ **Checkpoint: You Should Know**
+
+- Chain-of-thought and reasoning techniques
+- Few-shot and zero-shot prompting strategies
+- Role-based and system prompting
+- Prompt security and optimization
+- ReAct pattern for agent reasoning
+
+### 🏗️ **Practice Project**
+
+**Advanced Prompt Engineering Toolkit**
+
+- Create a collection of prompt templates for different use cases
+- Build a role-based chatbot with consistent personality
+- Implement chain-of-thought reasoning for complex problems
+- Design few-shot examples for specific domains
+- Goal: Master advanced prompting techniques and create reusable patterns
+
+---
+
+## 🧠 Phase 3: AI Agent Concepts
 
 ### 🎯 **Learning Objectives**
 
@@ -84,9 +197,19 @@ Understand what makes an AI agent different from a simple chatbot
 - How agents use tools and external APIs
 - Multi-agent system concepts
 
+### 🏗️ **Practice Project**
+
+**Simple ReAct Agent**
+
+- Build a basic agent that can reason and act
+- Integrate with external APIs (weather, calculator, web search)
+- Implement tool calling and response parsing
+- Create a simple conversational interface
+- Goal: Understand agent fundamentals and tool integration
+
 ---
 
-## 🔧 Phase 3: LangChain Foundations
+## 🔧 Phase 4: LangChain Foundations
 
 ### 🎯 **Learning Objectives**
 
@@ -120,9 +243,19 @@ Master LangChain as the foundation for building agents
 - LangChain Expression Language (LCEL)
 - Integration with various tools and APIs
 
+### 🏗️ **Practice Project**
+
+**Intelligent Document Assistant**
+
+- Build a RAG system that can answer questions about uploaded documents
+- Implement document chunking and vector storage
+- Create conversational memory for context retention
+- Add multiple document types support (PDF, TXT, etc.)
+- Goal: Master LangChain fundamentals and RAG architecture
+
 ---
 
-## 📊 Phase 4: LangGraph Mastery
+## 📊 Phase 5: LangGraph Mastery
 
 ### 🎯 **Learning Objectives**
 
@@ -163,9 +296,20 @@ Build sophisticated, stateful AI agents with LangGraph
 - Multi-agent coordination patterns
 - Human-in-the-loop implementations
 
+### 🏗️ **Practice Project**
+
+**Multi-Step Research Agent**
+
+- Create an agent that can conduct comprehensive research on any topic
+- Implement multiple research steps: search → analyze → synthesize → report
+- Add human approval checkpoints for important decisions
+- Build state persistence for long-running tasks
+- Include multiple specialized agents (researcher, analyst, writer)
+- Goal: Master LangGraph workflows and complex agent orchestration
+
 ---
 
-## 🚀 Phase 5: Advanced Applications & Production
+## 🚀 Phase 6: Advanced Applications & Production
 
 ### 🎯 **Learning Objectives**
 
@@ -243,28 +387,36 @@ Build production-ready agents and explore cutting-edge applications
 - [ ] Practice prompt engineering
 - [ ] Experiment with different AI models
 
-### Phase 2: Agent Concepts ✅
+### Phase 2: Advanced Prompting ✅
+
+- [ ] Master chain-of-thought prompting
+- [ ] Learn few-shot and zero-shot techniques
+- [ ] Understand ReAct prompting patterns
+- [ ] Practice role-based prompting
+- [ ] Study prompt security and optimization
+
+### Phase 3: Agent Concepts ✅
 
 - [ ] Complete Functions, Tools and Agents course
 - [ ] Read ReAct paper
 - [ ] Understand agent architectures
 - [ ] Learn about multi-agent systems
 
-### Phase 3: LangChain ✅
+### Phase 4: LangChain ✅
 
 - [ ] Complete LangChain course
 - [ ] Build a RAG application
 - [ ] Master LCEL
 - [ ] Integrate external tools
 
-### Phase 4: LangGraph ✅
+### Phase 5: LangGraph ✅
 
 - [ ] Study LangGraph documentation
 - [ ] Build your first LangGraph agent
 - [ ] Implement state management
 - [ ] Create multi-agent workflows
 
-### Phase 5: Production ✅
+### Phase 6: Production ✅
 
 - [ ] Build a production-ready agent
 - [ ] Implement monitoring
