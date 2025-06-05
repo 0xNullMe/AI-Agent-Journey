@@ -425,24 +425,6 @@ Build production-ready agents and explore cutting-edge applications
 
 ---
 
-## 🤝 Contributing
-
-Found a great resource? Have suggestions for the learning path? We welcome contributions!
-
-1. Open an issue to discuss your suggestion
-2. Submit a pull request with new resources
-3. Help improve the learning path organization
-
-## 📞 Connect & Share
-
-Share your progress and connect with other learners:
-
-- Tag us on Twitter with your projects
-- Join community discussions
-- Share your LangGraph creations
-
----
-
 <div align="center">
 
 **Ready to build your first AI Agent with LangGraph?** 🚀
